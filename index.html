@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97c12fe658.js" crossorigin="anonymous"></script>
+    <title>NTR_GRARAGE</title>
+    <link href="styles.css" rel="stylesheet">
+    <div style="background-color: rgb(163, 233, 233);" </div>
+</head>
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <i class="fab fa-2x fa-instagram"></i>
+  
+      </svg>
+      <span class="ml-3 text-xl">NTR GARAGE</span>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex  items-center text-base justify-center">
+      <div class="relative inline-block text-center">
+        <div>
+          <button type="button" class="inline-flex justify-center w-full rounded-md  shadow-sm px-4 py-2 bg-rgb(163, 233, 233) text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 " id="menu-btn" aria-expanded="true" aria-haspopup="true">
+            JR.NTR
+            <!-- Heroicon name: solid/chevron-down -->
+            <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <div class=" flex-row origin-top absolute right-0 mt-2 w-50 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none text-sm hidden absolute" id="dropdown" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">     
+          <div class="py-1" role="none">
+            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+            <a href="https://twitter.com/tarak9999?lang=en" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Twitter</a>
+            <a href="https://www.instagram.com/jrntr/" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Instagram</a>
+            <a href="https://www.facebook.com/jrntr/" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Facebook</a>
+            <a href="https://www.youtube.com/channel/UC4kX80RND995-3eHAWaTtgQ" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-3">Youtube</a>
+          </div>
+        </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', ()=> {
+            const menuBtn = document.querySelector('#menu-btn')
+            const dropdown = document.querySelector('#dropdown')
+            
+            menuBtn.addEventListener('click', () => {
+                /* if(dropdown.classList.contains('hidden')){
+                    dropdown.classList.remove('hidden');
+                    dropdown.classList.add('flex');
+                }else{
+                    dropdown.classList.remove('flex')
+                    dropdown.classList.add('hidden')
+                } */
+
+                dropdown.classList.toggle('hidden')
+                dropdown.classList.toggle('flex')
+            })
+
+        })
+    </script>
+      </div>
+      <div class="relative inline-block text-center">
+        <div>
+          <button type="button" class="inline-flex justify-center w-full rounded-md  shadow-sm px-4 py-2 bg-rgb(163, 233, 233) text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 " id="menu-btnnn" aria-expanded="true" aria-haspopup="true">
+            Must Follow
+            <!-- Heroicon name: solid/chevron-down -->
+            <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+        </div>
+        <div class=" flex-row origin-top absolute right-0 mt-2 w-50 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none text-sm hidden absolute" id="dropdownnn" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">     
+          <div class="py-1" role="none">
+            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+            <a href="https://twitter.com/ntrfantrends?lang=en" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Trends Handle</a>
+            <a href="https://twitter.com/NtrMurali9999" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Murali Nandipati</a>
+          </div>
+        </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', ()=> {
+            const menuBtn = document.querySelector('#menu-btnnn')
+            const dropdown = document.querySelector('#dropdownnn')
+            
+            menuBtn.addEventListener('click', () => {
+                /* if(dropdown.classList.contains('hidden')){
+                    dropdown.classList.remove('hidden');
+                    dropdown.classList.add('flex');
+                }else{
+                    dropdown.classList.remove('flex')
+                    dropdown.classList.add('hidden')
+                } */
+
+                dropdown.classList.toggle('hidden')
+                dropdown.classList.toggle('flex')
+            })
+
+        })
+    </script>
+      </div>
+        <div class="relative inline-block text-left">
+            <div>
+              <button type="button" class="flex justify-center w-full rounded-md  shadow-sm px-4 py-2 bg-rgb(163, 233, 233) text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-red-500 " id="menu-btnn" aria-expanded="true" aria-haspopup="true">
+                Media
+                <!-- Heroicon name: solid/chevron-down -->
+                <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                </svg>
+              </button>
+            </div>    
+            <div class=" flex-col origin-top-right absolute right-0 mt-2 w-50 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none text-sm hidden " id="dropdownn" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">     
+              <div class="py-1" role="none">
+                <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+                <ul>
+                  <li>
+                   <a href="movies.html" class="text-gray-700 block px-4 py-2 text-sm" class="px-2 py-1 hover:bg-blue-300 rounded" role="menuitem" tabindex="-1" id="menu-item-0">All Movies</a>
+                  </li>
+                  <li>
+                    <li>
+                      <a href="https://drive.google.com/drive/u/0/folders/19_o7yY3GL4LRQ-atFjk3riOhS3Lct3vy" class="text-gray-700 block px-4 py-2 text-sm" class="px-2 py-1 hover:bg-blue-300 rounded" role="menuitem" tabindex="-1" id="menu-item-0">HD Pics</a>
+                     </li>
+                     <li>
+                </ul>
+             
+      
+              </div>
+           </div>
+    
+        <script>
+            window.addEventListener('DOMContentLoaded', ()=> {
+                const menuBtn = document.querySelector('#menu-btnn')
+                const dropdown = document.querySelector('#dropdownn')
+                
+                menuBtn.addEventListener('click', () => {
+                    /* if(dropdown.classList.contains('hidden')){
+                        dropdown.classList.remove('hidden');
+                        dropdown.classList.add('flex');
+                    }else{
+                        dropdown.classList.remove('flex')
+                        dropdown.classList.add('hidden')
+                    } */
+    
+                    dropdown.classList.toggle('hidden')
+                    dropdown.classList.toggle('flex')
+                })
+    
+            })
+        </script>
+        
+    
+    </nav>
+  </div>
+</header>
+<body>
+    <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">NTR GARAGE
+              <br class="hidden lg:inline-block">Official website
+            </h1>
+            <p class="mb-8 leading-relaxed">This is an @_ntr_garage_ Official website,created to showcase some content related to Jr.NTR.Here we provide usefull information releted to trends,etc.</p>
+            <div class="flex justify-center">
+              <a href="https://www.instagram.com/_ntr_garage_/?hl=en"
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Our Instagram</button>
+                </a>
+                <a href="https://twitter.com/ntrfantrends?lang=en"
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Trend Handle</button>
+              </a>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="https://i.ibb.co/LNWy7VZ/Pics-Art-05-23-10-32-24.jpg">
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="https://i.ibb.co/SyKjpxT/20210526-122053.jpg">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Watch Ramaraju For Bheem Teaser now</h2>
+              <p class="leading-relaxed text-base">Ramaraju for Bheem teaser sets record for first ever tollywood teaser to hit 50M views and 1M+ likes on Youtube</p>
+              <a href="https://www.youtube.com/watch?v=BN1MwXUR3PM&t=5s"
+              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Watch Bheem Teaser Now</button>
+               </a>
+            </div>
+            <div class="sm:w-1/2 mb-10 px-4">
+              <div class="rounded-lg h-64 overflow-hidden">
+                <img alt="content" class="object-cover object-center h-full w-full" src="https://i.ibb.co/HxpxdSW/20210526-125635.jpg">
+              </div>
+              <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Birthday Special video by NTR GARAGE</h2>
+              <p class="leading-relaxed text-base">A small edit to celebrate Mass god NTR bithday,released on NTR Anna birthday.Check that out now.</p>
+              <a href="https://www.instagram.com/tv/CPFGtZ_JNpX/?utm_source=ig_web_copy_link"
+              <button class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Watch now</button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="flex flex-col text-center w-full mb-20">
+      <p class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 justify-center">Popular Fan Pages</p>
+    </div>
+      <div class="flex justify-center">
+        <a href="instagram.html"
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Instagram Fc's</button>
+          </a>
+          <a href="twitter.html"
+        <button class="ml-4 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Twitter Fc's</button>
+        </a>
+      </div>
+    </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Gallery</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Some of the tarak movies and recent achievments</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://i.ibb.co/z8Zb8Yg/1602052942282-2.jpg">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">ARAVIDA SAMETHA VERE RAGHAVA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Directed by trivikram</h1>
+                  <p class="leading-relaxed">The film revolves around a young man(Jr.NTR)  whose life changes after engaging in a fight.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://i.ibb.co/HYTjT4f/1602128093325.jpg">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">NANNAKU PERMATHO</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Directed by Sukumar</h1>
+                  <p class="leading-relaxed">Abhiram(Jr.NTR) knows that his father once lost all his assets by villan.He decides to seek revenge on  and take away his fortune</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://i.ibb.co/hsH7sWn/1602066869736-1.jpg">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">TEMPER</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Directed by Puri Jagannadh</h1>
+                  <p class="leading-relaxed">Daya(Jr.NTR), a corrupt police officer, finds his life changing when he takes on a case of gang rape.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://i.ibb.co/Wzc2WB3/1602059123114.jpg">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">JAI LAVA KUSA</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Directed by K.S Ravindra</h1>
+                  <p class="leading-relaxed">Jr.NTR played triple role in this movie and which is an eye feast for fans watching "Jai"(Ravan) </p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://i.ibb.co/cy9XQK8/1602059675716.jpg">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">JANATHA GARAGE</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Directed by Koratala Siva</h1>
+                  <p class="leading-relaxed">Jr.ntr meets an unexpected encounter with a man who runs an organization for the oppressed, changes his purpose in life.</p>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="flex relative">
+                <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="https://i.ibb.co/9hThbHQ/NTR-Jr-Unseen-6-pack-Still-By-Clicked-By-Dabboo-Ratnani.jpg">
+                <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                  <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Hyderabad times Most Desirable Men</h2>
+                  <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Stands at 3rd</h1>
+                  <p class="leading-relaxed">Jr.NTR stands at 3 in Hyderabad Times Most Desirable Men Of 2020.Without any movie release from past 3years. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </body>
+
+      
+     
+           
+        
+    </div>
+      <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <i class="fab fa-2x fa-instagram"></i>
+          
+            </svg>
+            <span class="ml-3 text-xl">NTR GARAGE</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 all rigthts reserved —
+            <a href="https://www.instagram.com/_ntr_garage_/?hl=en" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@_ntr_garage_</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+
+</html>
